@@ -1,0 +1,405 @@
+{
+  "activeSkill": {
+    "translations": {
+
+      "高得点ぷちぐるが出現": "HS Neso Spawn",
+
+      "ぷちぐるを消去": "Clear Nesos",
+      "コンボ増加": "Increase Combo",
+      "追加ボム出現": "Extra Bomb Spawn",
+
+      "まとめてぷちぐるを消去": "Clear Nesos Collectively",
+
+      "ショータイム開始": "Trigger Showtime",
+
+      "少しの間なぞってぷちぐるを消去": "Clear Nesos in Traced Range for a while️",
+      "少しの間確率でボムが降ってくる": "Chance for Bomb to fall for a while️",
+      "少しの間ぷちぐるを巻き込んで消去": "Clear Nearby Nesos️ for a while",
+      "少しの間時間停止＋つながり範囲アップ": "Timer Stops for a while",
+      "少しの間センターぷちぐるがいなくなる": "Center Neso would Disappear for a while️",
+      "少しの間サポート1ぷちぐるがいなくなる": "1 Support Neso would Disappear for a while️",
+
+      "つながり範囲アップ": "Chain Range Up",
+
+      "ボム出現に必要なぷち数が減少": "Bomb Requirement Down",
+
+      "ぷちぐるを整理": "Organize Nesos",
+
+      "画面上にボムが出現": "Bomb Spawn",
+      "画面上に大きなボムが出現": "Big Bomb Spawn",
+      "画面中央に大きなボムが出現": "Big Bomb Spawn in center",
+
+      "巻き込みぷちぐるが出現": "Explosive Neso Spawn",
+
+      "センターぷちぐるが変化": "Convert to Center Neso",
+      "センターぷちぐるが出現": "Center Neso Spawn",
+      "センターぷちぐるを自動消去": "Auto Clear Center Nesos",
+
+      "特定範囲のぷちぐるがすべてつながる": "Connect Nesos in Specific Range"
+    }
+  },
+  "passiveSkill": {
+    "type": {
+      "1": "Combo lasts {value1} longer",
+      "2": "Clear {value1} ~ {value2} Nesos",
+      "3": "Convert {value1} ~ {value2} Nesos to Center (HS)",
+      "4": "{value1} Boost on Showtime Gauge",
+      "5": "{value1} Boost on Center Skill Gauge",
+      "6": "Increase combo obtained by {value1}",
+      "7": "Increase score obtained by {value1}",
+      "8": "Center puchi drops {value1} more often",
+      "9": "Increase gold obtained by {value1}",
+      "10": "Increase bomb range by {value1}",
+      "11": "Increase chain range by {value1}",
+      "12": "Create {value1} ~ {value2} bombs"
+    },
+    "trigger": {
+      "4": "On Center Skill Activation",
+      "7": "During First 10 Seconds",
+      "8": "During Last 10 Seconds",
+      "9": "During Showtime",
+      "10": "On Last Bonus",
+      "11": "During Combo"
+    }
+  },
+  "cardPassiveSkill": {
+    "effectDetail": {
+    },
+    "effect": {
+      "1": "Score+",
+      "2": "Gold+",
+      "3": "Time+",
+      "4": "Skill+",
+      "5": "Showtime+"
+    },
+    "trigger": {
+      "1": "Puzzle Start",
+      "2": "Time Remaining",
+      "3": "Puzzle End",
+      "4": "Score Achieved",
+      "5": "Gold Obtained",
+      "6": "Combo Reached",
+      "7": "Skill Activated",
+      "8": "During Showtime",
+      "9": "Bomb Cleared",
+      "11": "Neso Cleared",
+      "11_1": "Center Neso Cleared",
+      "10": "Chain Cleared",
+      "10_1": "Blue Chain Cleared",
+      "10_2": "Yellow Chain Cleared",
+      "10_3": "Red Chain Cleared",
+      "10_4": "Rainbow Chain Cleared"
+    }
+  },
+  "mission": {
+    "targetFormat": "{target} {limit} {period}",
+
+    "limitationStandalone": {
+      "None": "None",
+      "Leader": {
+        "Other": "Center member must be from {value}",
+        "Personal": "Center member must be {value}"
+      },
+      "All": {
+        "Other": "All members must be from {value}",
+        "Personal": "All members must be {value}"
+      }
+    },
+
+    "limitationShort": {
+      "None": "-",
+      "Leader": {
+        "Other": "{value} Center",
+        "Personal": "{value} Center"
+      },
+      "All": {
+        "Other": "{value} Team",
+        "Personal": "{value} Team"
+      }
+    },
+
+    "limitation": {
+      "None": "",
+      "Leader": {
+        "Other": "using a {value} leader",
+        "Personal": "using {value} as leader"
+      },
+      "All": {
+        "Other": "using a {value}-only team",
+        "Personal": "using a {value}-only team"
+      }
+    },
+
+    "period": {
+      "1": "in 1 play",
+      "2": "in total"
+    },
+
+    "target": {
+      "eraseLeader": "Clear {data} Center Nesos",
+      "eraseAll": "Clear {data} Nesos",
+      "gold": "Get {data} Gold",
+      "combo": "Get {data} Combos",
+      "macaron": "Get {data} Tokens",
+      "skill": "Activate skill {data} times",
+      "score": "Get {data} Score",
+
+      "scoreBreak": [9, 6, 3],
+      "score_3": "Get {data}k Score",
+      "score_6": "Get {data}m Score",
+      "score_9": "Get {data}b Score",
+
+      "showTime": "Trigger {data} Showtimes",
+      "bombAll": "Clear {data} bombs",
+      "bombScore": "Clear {data} Score bombs",
+      "bombTime": "Clear {data} Time bombs",
+      "bombGold": "Clear {data} Gold bombs",
+      "chainCount": "Clear {chain}+chain Nesos {count} times",
+      "chainCount_26": "Clear {data} Rainbow (26+) chains",
+      "chainCount_21": "Clear {data} Red (21+) chains",
+      "chainCount_16": "Clear {data} Yellow (16+) chains",
+      "chainCount_11": "Clear {data} Blue (11+) chains"
+    },
+
+    "targetShort": {
+      "eraseLeader": "{data} Center Nesos",
+      "eraseAll": "{data} Nesos",
+      "gold": "{data} Gold",
+      "combo": "{data} Combos",
+      "macaron": "{data} Tokens",
+      "skill": "{data} Activations",
+      "score": "{data} Score",
+
+
+      "showTime": "{data} Showtimes",
+      "bombAll": "{data} Bombs",
+      "bombScore": "{data} Score bombs",
+      "bombTime": "{data} Time bombs",
+      "bombGold": "{data} Gold bombs",
+      "chainCount": "{count} {chain}+chain Nesos",
+
+      "scoreBreak": [9, 6, 3],
+      "score_3": "{data}k Score",
+      "score_6": "{data}m Score",
+      "score_9": "{data}b Score",
+
+      "chainCount_26": "{data} Rainbow chains",
+      "chainCount_21": "{data} Red chains",
+      "chainCount_16": "{data} Yellow chains",
+      "chainCount_11": "{data} Blue chains"
+    }
+  },
+  "names": {
+    "Personal": {
+      "name": {
+        "101": "Honoka",
+        "102": "Kotori",
+        "103": "Umi",
+        "104": "Maki",
+        "105": "Rin",
+        "106": "Hanayo",
+        "107": "Nico",
+        "108": "Nozomi",
+        "109": "Eli",
+        "201": "Chika",
+        "202": "You",
+        "203": "Riko",
+        "204": "Hanamaru",
+        "205": "Ruby",
+        "206": "Yoshiko",
+        "207": "Dia",
+        "208": "Kanan",
+        "209": "Mari"
+      }
+    },
+    "Unit": {
+      "name": ["", "Printemps", "BiBi", "lily white", "CYaRon!", "AZALEA", "Guilty Kiss"]
+    },
+    "Group": {
+      "name": ["", "μ’s", "Aqours", "A-RISE", "Saint Snow"]
+    },
+    "Class": {
+      "name": ["", "1st Year", "2nd Year", "3rd Year"]
+    }
+  },
+  "wording": {
+    "settings": {
+      "showSettings": "Settings",
+      "timezone": "Timezone",
+      "currentTimezone": "Current Timezone:",
+      "title": "Settings",
+      "useJST": "Use JST"
+    },
+    "cards": {
+      "maxScore": "MAX SCORE",
+      "specialSkillLabel": "SPECIAL",
+      "passiveSkillLabel": "SKILL"
+    },
+    "menu": {
+      "achievements": "Achievements",
+      "nesos": "Neso",
+      "nesoList": "Neso List",
+      "nesoStats": "Neso Stats",
+      "cards": "Cards",
+      "stages": "Stages",
+      "events": "Events",
+
+      "github": "Github",
+      "legacyWebsite": "Old Site"
+    },
+    "subMenu": {
+      "nesoList": "List",
+      "nesoStats": "Stats"
+    },
+    "menuDescription": {
+      "achievements": "Achievements",
+      "nesos": "Neso List",
+      "nesoStats": "Neso Stats",
+      "cards": "Cards",
+      "stages": "Mission Stages",
+      "events": "Events",
+
+      "github": "Source Code, Bug Reports and Feature Requests",
+      "legacyWebsite": "Old Puchiguru.db Site"
+    },
+    "events": {
+      "types": {
+        "1": "TOKEN",
+        "2": "AREA"
+      },
+      "meta": {
+        "start": "Start:",
+        "end": "End:"
+      },
+      "effect": {
+        "bonus": "Bonus Effect",
+        "40": "40%",
+        "20": "20%",
+        "10": "10%",
+        "start": "Start",
+        "end": "End",
+        "area": "Area"
+      },
+      "stages": {
+        "areaShort": "Area"
+      },
+      "areas": {
+        "0": "-",
+        "1": "1",
+        "2": "2",
+        "3": "3",
+        "101": "1H",
+        "102": "2H",
+        "103": "3H"
+      },
+      "areasFull": {
+        "0": "-",
+        "1": "1-NORMAL",
+        "2": "2-NORMAL",
+        "3": "3-NORMAL",
+        "101": "1-HARD",
+        "102": "2-HARD",
+        "103": "3-HARD"
+      },
+      "tower": {
+        "target1": "Target 1",
+        "target2": "Target 2",
+        "target3": "Target 3",
+        "reward1_short": "R1",
+        "reward2_short": "R2",
+        "reward3_short": "R3",
+        "reward1": "Reward 1",
+        "reward2": "Reward 2",
+        "reward3": "Reward 3"
+      }
+    },
+    "nesos": {
+      "list": {
+        "activeSkill": "C",
+        "passiveSkill": "S"
+      },
+      "activeSkill": "Center Skill",
+      "passiveSkill": "Support Skill"
+    },
+    "skills": {
+      "level": "Lv",
+      "activeSkillParams": {
+        "skillRandomMin": "Random Min",
+        "skillRandomMax": "Random Max",
+        "skillTime": "Duration",
+        "num": "Types",
+        "lotteryRate": "Probability",
+        "forceBombNum": "Bombs"
+      },
+      "passiveSkill": {
+        "levels": "Lv",
+        "effects": "Effects",
+        "trigger": "Trigger",
+        "rate": "Rate"
+      },
+      "activeSkill": {
+        "levels": "Lv",
+        "effects": "Effects",
+        "requirements": "Nesos",
+        "parameters": "Params",
+        "view": "View",
+        "binmap": "Range",
+        "key": "Key",
+        "value": "Value",
+        "range" : {
+          "SS": "SS",
+          "SSminus": "SS-",
+          "SSplus": "SS+",
+          "S": "S",
+          "Sminus": "S-",
+          "Splus": "S+",
+          "M": "M",
+          "Mminus": "M-",
+          "Mplus": "M+",
+          "L": "L",
+          "Lminus": "L-",
+          "Lplus": "L+",
+          "LL": "LL",
+          "LLminus": "LL-",
+          "LLplus": "LL+",
+          "3L": "3L",
+          "3Lminus": "3L-",
+          "3Lplus": "3L+"
+        }
+      }
+    },
+    "stages": {
+      "showCombined": "Show Combined",
+      "normalMission": "Missions",
+      "secretMission": "Secrets",
+      "extraMission": "Extras",
+      "allMissions": "Missions",
+      "missions": "Missions",
+      "secrets": "Secret Missions",
+      "extras": "Extra Missions",
+      "missionModal": {
+        "titles": {
+          "mission": "Mission",
+          "limitation": "Limitation",
+          "target": "Target",
+          "release": "Release",
+          "unlock": "Unlock Requirements",
+          "reward": "Reward"
+        },
+        "title": "Mission Detail"
+      },
+      "schedule": {
+        "__title": "Rotation Schedule",
+        "num": "#",
+        "start": "Start",
+        "end": "End"
+      }
+    },
+    "message": {
+      "newWebsite": "New Puchibase Website",
+      "newWebsiteDescription1": "This beta Puchibase website is still active in development.",
+      "newWebsiteDescription2": "If you experienced bugs or have any suggestions, please open an issue here:"
+
+    }
+  }
+}
