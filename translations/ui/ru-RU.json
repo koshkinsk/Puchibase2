@@ -183,33 +183,33 @@
       "score_6": "{data}m Score",
       "score_9": "{data}b Score",
 
-      "chainCount_26": "{data} Rainbow chains",
-      "chainCount_21": "{data} Red chains",
-      "chainCount_16": "{data} Yellow chains",
-      "chainCount_11": "{data} Blue chains"
+      "chainCount_26": "{data} Радужные цепочки",
+      "chainCount_21": "{data} Красные цепочки",
+      "chainCount_16": "{data} Желтые цепочки",
+      "chainCount_11": "{data} Синие цепочки"
     }
   },
   "names": {
     "Personal": {
       "name": {
-        "101": "Honoka",
-        "102": "Kotori",
-        "103": "Umi",
-        "104": "Maki",
-        "105": "Rin",
-        "106": "Hanayo",
-        "107": "Nico",
-        "108": "Nozomi",
-        "109": "Eli",
-        "201": "Chika",
-        "202": "You",
-        "203": "Riko",
-        "204": "Hanamaru",
-        "205": "Ruby",
-        "206": "Yoshiko",
-        "207": "Dia",
-        "208": "Kanan",
-        "209": "Mari"
+        "101": "Хонока",
+        "102": "Котори",
+        "103": "Уми",
+        "104": "Маки",
+        "105": "Рин",
+        "106": "Ханаё",
+        "107": "Нико",
+        "108": "Нозоми",
+        "109": "Эли",
+        "201": "Чика",
+        "202": "Ёу",
+        "203": "Рико",
+        "204": "Ханамару",
+        "205": "Руби",
+        "206": "Ёшико",
+        "207": "Диа",
+        "208": "Канаан",
+        "209": "Мари"
       }
     },
     "Unit": {
@@ -224,7 +224,7 @@
   },
   "wording": {
     "settings": {
-      "showSettings": "Settings",
+      "showSettings": "Настройки",
       "timezone": "Timezone",
       "currentTimezone": "Current Timezone:",
       "title": "Settings",
@@ -242,10 +242,10 @@
       "nesoStats": "Neso Stats",
       "cards": "Cards",
       "stages": "Stages",
-      "events": "Events",
+      "events": "Эвенты",
 
       "github": "Github",
-      "legacyWebsite": "Old Site"
+      "legacyWebsite": "Старый сайт"
     },
     "subMenu": {
       "nesoList": "List",
@@ -373,10 +373,10 @@
       "normalMission": "Missions",
       "secretMission": "Secrets",
       "extraMission": "Extras",
-      "allMissions": "Missions",
-      "missions": "Missions",
-      "secrets": "Secret Missions",
-      "extras": "Extra Missions",
+      "allMissions": "Миссии",
+      "missions": "Миссии",
+      "secrets": "Секретные Миссии",
+      "extras": "Экстра Миссии",
       "missionModal": {
         "titles": {
           "mission": "Mission",
@@ -384,7 +384,7 @@
           "target": "Target",
           "release": "Release",
           "unlock": "Unlock Requirements",
-          "reward": "Reward"
+          "reward": "Награда"
         },
         "title": "Mission Detail"
       },
