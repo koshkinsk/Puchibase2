@@ -29,4 +29,10 @@
     "translator": "ieb",
     "code": "ja-JP"
   }
+  "ru-RU": {
+    "language": "Русский",
+    "flag": "ru",
+    "translator": "koshkinsk",
+    "code": "ru-RU"
+  }
 }
